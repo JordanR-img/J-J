@@ -11,7 +11,7 @@ export default function HomePage() {
 
         
 
-      <div><footer>this may contain a nav</footer></div>
+      {/* <div><footer>this may contain a nav</footer></div> */}
 
 
     </div>

@@ -1,3 +1,10 @@
-.test {
- color: blue;
-};
+* {
+  box-sizing: border-box;
+}
+
+.MainContentBox {
+  border: solid black;
+  display: inline-block;
+  display: flex;
+  margin-top: 20%;
+}

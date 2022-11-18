@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+Gujarati:wght@600&display=swap");
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .MainContentBox {
-  /* border: solid black;  */
+  border: solid black; 
   /* display: inline-block;
   display: flex;  */
-  height: 90vh;
+  
+  height: 80vh;
 }
 
 .NavBar {
@@ -29,6 +30,10 @@
   align-items: flex-end;
 }
 
+.EditJonePick {
+  border: solid black;
+  border-radius: 50px;
+}
 .ProjectsNav {
   /* border: solid red; */
 
@@ -44,8 +49,6 @@
 .ProjectsNav:hover {
   background-color: #8a9a5b;
   transform: scale(1.1);
-
-  /* font-family: 'Noto Serif Gujarati', serif; */
 }
 
 @media all and (max-width: 768px) {
@@ -55,14 +58,17 @@
 }
 
 @media all and (max-width: 390px) {
+
+
   .BoxProfilePic {
-    /* border: solid red; */
+    border: solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 30vh;
   }
+
 
 
 }

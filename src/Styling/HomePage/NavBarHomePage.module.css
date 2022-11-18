@@ -35,7 +35,45 @@ li {
 
 
 @media all and (max-width: 390px) {
-    .NavButton {
-        display: block;
+    .NavBarContainer {
+        height: 100%;
+        width: 100%;
+        border: solid purple;
+        
     }
+
+    .NavButtonContainer {
+        border: solid gold;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 1;
+        transition: all .2s ease-in-out; 
+    }
+
+
+    .NavButton {
+        /* display: block; */
+        display: flex;
+        flex: start;
+        border: solid red;
+        height: 15%;
+        width: 15%;
+        z-index: 3;
+        position: fixed;
+    }
+
+    .NavButton:hover {
+        color: white;
+        background-color: #3D5467;
+
+    }
+
+    .ListContainer {
+        border: solid red;
+        display: flex;
+        height: 30vh;
+        width: 30vh;
+        z-index: 1;
+    }
+
 }

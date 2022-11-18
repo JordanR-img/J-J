@@ -1,0 +1,8 @@
+.HeaderContainer {
+    border: solid purple;
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-color: #8AA29E;
+}

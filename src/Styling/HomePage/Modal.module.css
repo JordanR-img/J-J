@@ -1,0 +1,22 @@
+.Modal {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 390px) {
+    .Modal {
+        display: block;
+    }   
+}

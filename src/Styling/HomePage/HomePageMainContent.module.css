@@ -14,6 +14,7 @@
 .NavBar {
   list-style-type: none;
   /* border: solid purple 6px; */
+ 
 
   display: flex;
   justify-content: space-around;
@@ -37,9 +38,31 @@
   padding: 5px;
   cursor: pointer;
   font-size: 200%;
+  transition: all .2s ease-in-out; 
 }
 
 .ProjectsNav:hover {
   background-color: #8a9a5b;
+  transform: scale(1.1);
+
   /* font-family: 'Noto Serif Gujarati', serif; */
+}
+
+@media all and (max-width: 768px) {
+  .NavBar {
+    display: none;
+  }
+}
+
+@media all and (max-width: 390px) {
+  .BoxProfilePic {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin-top: 30vh;
+  }
+
+
 }

@@ -1,0 +1,41 @@
+li {
+    list-style-type: none;
+    transition-delay: 3s;
+}
+
+.NavButton {
+    transition-duration: 1s;
+}
+
+
+.NavButton {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 390px) {
+    .NavButton {
+        display: block;
+    }
+}

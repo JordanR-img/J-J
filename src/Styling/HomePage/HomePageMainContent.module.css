@@ -5,11 +5,11 @@
 } */
 
 .MainContentBox {
-  border: solid black; 
+  /* border: solid black;  */
   /* display: inline-block;
   display: flex;  */
   
-  height: 80vh;
+  height: 70vh;
 }
 
 .NavBar {

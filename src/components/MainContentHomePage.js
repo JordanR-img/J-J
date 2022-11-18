@@ -1,5 +1,5 @@
 import Style from "../Styling/HomePage/HomePageMainContent.module.css";
-import Profile1 from "../assets/HeadShot.jpg";
+import Profile1 from "../assets/TransparentHeadShot.png";
 
 export default function MainContent() {
   return (
@@ -27,16 +27,22 @@ export default function MainContent() {
       <div className={Style.BoxProfilePic}>
         <div className={Style.Jordan}>
           <picture>
-            {" "}
             <source srcset={Profile1} media="(min-width: 390px)" />
-            <img src={Profile1} alt="Jordan Profile" className={Style.EditProfilePic} />
+            <img
+              src={Profile1}
+              alt="Jordan Profile"
+              className={Style.EditProfilePic}
+            />
           </picture>
         </div>
         <div className={Style.Jone}>
           <picture>
-            {" "}
             <source srcset={Profile1} media="(min-width: 390px)" />
-            <img src={Profile1} alt="Jone Profile" className={Style.EditProfilePic} />
+            <img
+              src={Profile1}
+              alt="Jone Profile"
+              className={Style.EditProfilePic}
+            />
           </picture>
         </div>
       </div>

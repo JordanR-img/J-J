@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 .HeaderContainer {
-    border: solid purple;
+    /* border: solid purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 10vh;
     width: 100%;
     position: relative;
     z-index: 1;
     background-color: #8AA29E;
+    font-family: 'Lobster';
+    font-size: 150%;
+    color:white
 }

@@ -3,7 +3,7 @@ import Style from "../Styling/HomePage/NavBarHomePage.module.css";
 import { useState } from "react";
 import Modal from "../components/ModalNavBar.js";
 export default function NavBar() {
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(true);
 
   return (
     <div className={Style.NavBarContainer}>

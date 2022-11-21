@@ -34,16 +34,19 @@ export default function MainContent() {
           </li>
         </ul>
       </div>
-      <div className={Style.TypeWriterBox}>
+      {/* <div className={Style.TypeWriterBox}>
         <h1 className={Style.TypeWriter}>
           Hi there! We are developers who have dreams to create. To make ideas
           become reality. Take a look around the page and let us know what you
           think
         </h1>
-      </div>
+      </div> */}
 
       <div className={Style.BoxProfilePic}>
         <div className={Style.Jordan}>
+          <section className={Style.JordanSection}>
+            <div className={Style.JordanSpeechBubble}><h1>"I want to redefine what it means to be a developer"</h1></div>
+          </section>
           <picture>
             <source srcset={Profile1} media="(min-width: 390px)" />
 
@@ -63,6 +66,9 @@ export default function MainContent() {
               className={Style.EditProfilePic}
             />
           </picture>
+          <section className={Style.JoneSection}>
+            <div className={Style.JoneSpeechBubble}><h1>"I want to inspire others to know that anything is possible"</h1></div>
+          </section>
         </div>
       </div>
     </div>

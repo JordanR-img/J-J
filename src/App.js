@@ -7,7 +7,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/jordan" element={<HomePage />}></Route>
         </Route>
       </Routes>
     </Router>

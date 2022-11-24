@@ -1,0 +1,37 @@
+.Modal {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 390px) {
+    .Modal {
+        position: absolute;
+        top: 50vh;
+        width: 50%;
+        display: block;
+        z-index: 1;
+        backdrop-filter: blur(10px);
+        backdrop-filter: opacity(20%);
+
+    }   
+    .ListContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: solid black;
+        height: 100%;
+        width: 100%;
+    }
+}

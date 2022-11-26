@@ -38,12 +38,12 @@ li {
     .NavBarContainer {
         height: 100%;
         width: 100%;
-        border: solid purple;
+        /* border: solid purple; */
         
     }
 
     .NavButtonContainer {
-        border: solid gold;
+        /* border: solid gold; */
         display: flex;
         justify-content: flex-end;
         z-index: 1;
@@ -55,9 +55,9 @@ li {
         /* display: block; */
         display: flex;
         flex: start;
-        border: solid red;
+        /* border: solid red; */
         height: 5%;
-        width: 5%;
+        width: 15%;
         z-index: 3;
         position: fixed;
     }
@@ -65,11 +65,13 @@ li {
     .NavButton:hover {
         color: white;
         background-color: #3D5467;
+        border-radius: 20%;
+
 
     }
 
     .ListContainer {
-        border: solid red;
+        /* border: solid red; */
         display: flex;
         height: 30vh;
         width: 30vh;

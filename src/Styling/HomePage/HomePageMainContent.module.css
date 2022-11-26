@@ -90,7 +90,7 @@
 
 
 .EditJonePick {
-  border: solid black;
+  /* border: solid black; */
   border-radius: 50px;
 }
 .ProjectsNav {
@@ -160,11 +160,29 @@
 
 @media all and (max-width: 390px) {
   .BoxProfilePic {
-    /* border: solid red; */
+    /* border: solid blue; */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* height: 100vh; */
     margin-top: 30vh;
   }
+
+  .MainContentBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Jordan {
+    /* border: solid brown; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Jone {
+    /* border: solid purple; */
+    display: flex;
+    flex-direction: column;
+  }
+
 }

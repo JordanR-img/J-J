@@ -1,7 +1,6 @@
 import Style from "../Styling/HomePage/HomePageMainContent.module.css";
-import Profile1 from "../assets/TransparentHeadShot.png";
+import Profile1 from "../assets/Profile3.png";
 import { Link } from "react-router-dom";
-
 export default function MainContent() {
   return (
     <div className={Style.MainContentBox}>
@@ -44,6 +43,7 @@ export default function MainContent() {
 
       <div className={Style.BoxProfilePic}>
         <div className={Style.Jordan}>
+        <h1 className={Style.ideas}>Ideas becoming reality</h1>
           <section className={Style.JordanSection}>
             <div className={Style.JordanSpeechBubble}><h1>"I want to redefine what it means to be a developer"</h1></div>
           </section>

@@ -1,5 +1,5 @@
 import Style from "../Styling/HomePage/HomePageMainContent.module.css";
-import Profile1 from "../assets/TransparentHeadShot.png";
+import Profile1 from "../assets/Profile3.png";
 import { Link } from "react-router-dom";
 
 export default function MainContent() {
@@ -42,6 +42,7 @@ export default function MainContent() {
         </h1>
       </div> */}
 
+<h1>Ideas becoming reality</h1>
       <div className={Style.BoxProfilePic}>
         <div className={Style.Jordan}>
           <section className={Style.JordanSection}>

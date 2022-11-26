@@ -185,4 +185,12 @@
     flex-direction: column;
   }
 
+  .ideas {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+  }
+ 
+
 }

@@ -1,7 +1,6 @@
 import Style from "../Styling/HomePage/HomePageMainContent.module.css";
 import Profile1 from "../assets/Profile3.png";
 import { Link } from "react-router-dom";
-
 export default function MainContent() {
   return (
     <div className={Style.MainContentBox}>
@@ -41,7 +40,6 @@ export default function MainContent() {
           think
         </h1>
       </div> */}
-
 
       <div className={Style.BoxProfilePic}>
         <div className={Style.Jordan}>

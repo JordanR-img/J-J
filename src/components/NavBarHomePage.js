@@ -1,6 +1,8 @@
 import { FiMenu } from "react-icons/fi";
 import Style from "../Styling/HomePage/NavBarHomePage.module.css";
 import { useState } from "react";
+import { FiXCircle } from "react-icons/fi";
+
 import Modal from "../components/ModalNavBar.js";
 export default function NavBar() {
   const [modal, setModal] = useState(true);
